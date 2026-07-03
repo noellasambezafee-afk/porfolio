@@ -15,26 +15,15 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fixed">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Apropos</a>
+                <a class="nav-link active" aria-current="page" href="#about">A propos</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Apropos</a>
+                <a class="nav-link" href="#services">Mes compétences</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#services">Mes competences</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="#skills">Objectifs</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
@@ -46,7 +35,7 @@
         </nav>
     </header>
     <main>
-        <section class="hero"> 
+        <section class="hero" id="about"> 
             <div class="px-4 py-5 text-center">
                 <h1 class="display-5 fw-bold text-body-emphasis">Qui suis-je</h1>
                 <div class="col-lg-6 mx-auto"> 
@@ -60,7 +49,7 @@
         </section>
         <section class="fearures" id="services">
             <div class="container px-4 py-5" id="hanging-icons"> 
-                <h2 class="pb-2 border-bottom">Mes services</h2>
+                <h2 class="pb-2 border-bottom">Mes Compétences</h2>
                  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> 
                     <div class="col d-flex align-items-start"> 
                         <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
@@ -87,10 +76,14 @@
                     </div>
 
                     <div class="col d-flex align-items-start"> 
-                        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"> 
-                            <svg class="bi" width="1em" height="1em" aria-hidden="true">
-                                <use xlink:href="#toggles2"></use></svg>
+                        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+ 
+                        <svg class="bi" width="1em" height="1em" aria-hidden="true">
+                            <use xlink:href="#toggles2"></use>
+                        </svg>
                         </div>
+                    </div>
+                    </div>
                         <div> 
                             <h3 class="fs-2 text-body-emphasis">competences 3</h3> 
                             <p>facilitation de travailler en equipe.</p> 
@@ -100,7 +93,22 @@
 
                 </div>
             </div>
+        </section> 
+        <section class="py-5 bg-light" id="Objectifs"> 
+            <div class="container px-4">
+              <!-- objectifs -->
+                <div class="text-center mb-5">   
+                     <h2 class="fw-bold text-body-emphasis"> Mes objectifs</h2>
+                     <p class="lead text-muted"> En ce moment a la recherche de nouvelle opportunite proffessionnelle me permettant de progresser comme personnelle, polyvalente, honnete et perfectionniste de nature sont les maitres mots de mon comportement professionnel. La curiosite, la soif d apprendre et le desir de developper mes connaissances font parties de mes ambitions. </p>
+               
+
+                </div>
+            </div>
+
         </section>
+
+
+
     </main>    
 </body>
 </html>
