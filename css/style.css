@@ -2,12 +2,27 @@ body {
     margin: 0;
     padding: 0;
 }
-.hero{
-   /* background-color: #ccc;*/
-    background-image: url(../images/bghero.webp);
+/* HERO */
+.hero {
+    background-image: url("../images/bghero.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 600px;
+
     display: flex;
     align-items: center;
+    justify-content: center;
+
+    padding: 50px;
+}
+ {
+    background-color: pink;
+}
+
+/* Cartes des compétences */
+#services .col {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
 }
