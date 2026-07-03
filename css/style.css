@@ -24,3 +24,8 @@ body {
     border-radius: 12px;
     padding: 20px;
 }
+
+.img {
+    width: 100%;
+    border-radius: 100px;
+}
