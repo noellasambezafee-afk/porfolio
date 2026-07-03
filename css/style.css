@@ -4,7 +4,8 @@ body {
 }
 /* HERO */
 .hero {
-    background-image: url("../images/bghero.webp");
+    /* background-image: url("../images/bghero.webp"); */
+    background-color: palevioletred;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,13 +17,14 @@ body {
 
     padding: 50px;
 }
- {
-    background-color: pink;
-}
 
 /* Cartes des compétences */
 #services .col {
     background-color: white;
     border-radius: 12px;
     padding: 20px;
+}
+
+p{
+    font-size: largeµ;
 }
